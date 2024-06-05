@@ -1,0 +1,20 @@
+PyInstaller
+===================
+
+pip install pyinstaller
+pyinstaller --windowed ssh_gui.py
+cd dist
+open ssh_gui.app
+
+
+OR
+====
+
+Py2app
+===========
+
+pip install py2app
+py2applet --make-setup MyApplication.py
+python setup.py py2app
+cd dist
+open ssh_gui.app
